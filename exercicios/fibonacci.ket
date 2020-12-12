@@ -1,0 +1,24 @@
+ket_inicio
+
+  int k
+
+  ketouts<<"Digite o numero"
+	ketini>>k
+	
+  int i = 0
+	int a = 0
+  int b = 1
+  int aux
+	
+  ketouts<<"Sequencia de Fibonnaci:"
+	
+  while(i < k) {
+	
+  	ketouti<<a
+		aux = a
+		a = b
+		b = b + aux;
+    i = i + 1
+	}
+
+ket_fim

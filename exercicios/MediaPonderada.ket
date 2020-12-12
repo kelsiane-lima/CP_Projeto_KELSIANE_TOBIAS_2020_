@@ -1,0 +1,31 @@
+ket_inicio
+
+# Média ponderada (IFCE)
+
+float n1;
+float n2;
+float total; 
+
+ketouts<<"Digite a nota 1";
+ketinf>> n1;
+ketouts<<"Digite a nota 2";
+ketinf>> n2;
+
+total = (n1*2 + n2*3)/5
+
+
+
+if(total >= 7){
+    ketouts<<"Aprovado!!!!";
+}else{ 
+        if(total>=4){
+            ketouts<<"Recuperacao!!!"
+}else{
+    ketouts<<"Reprovado!!!";
+}
+    
+}
+
+
+
+ket_fim

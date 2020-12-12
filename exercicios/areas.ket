@@ -1,0 +1,37 @@
+ket_inicio
+	
+	float a;
+	float b;
+	float c;
+	
+	float triangulo;
+	float circulo;
+	float quadrado;
+	float trapezio;
+	float retangulo; 
+	float pi;
+	
+	pi = 3.14159;
+	ketouts<<"Insira o valor de a, b e c";
+	ketinf>> a;
+	ketinf>> b;
+	ketinf>> c;
+	
+	triangulo = (a*c)/2
+	circulo = pi*c*c
+	trapezio = ((a+b)*c)/2
+	quadrado = b*b
+	retangulo = a*b 
+	ketouts<<"valor da area do triangulo";
+	ketoutf<< triangulo;
+	ketouts<<"valor da area do circulo";
+	ketoutf<< circulo;
+	ketouts<<"valor da area do trapezio";
+	ketoutf<< trapezio;
+	ketouts<<"valor da area do quadrado";
+	ketoutf<< quadrado;
+	ketouts<<"valor da area do retangulo";
+	ketoutf<< retangulo;
+
+
+ket_fim
